@@ -1,0 +1,46 @@
+table, table tr, table td { padding:none;border:none;border-spacing:0;}
+a:visited { color:blue; }
+
+body {
+	font-size:medium;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+div.low {
+	
+	font-family: OpenSymbol,Helvetica, Arial, sans-serif;
+}
+
+
+p {
+	max-width:1000;
+}
+
+
+h3 {
+font-weight: bold;
+}
+
+a.pop:hover {
+	color:rgb(173,235,255);
+	cursor:pointer;
+} 
+
+
+
+#header {
+  position: fixed;
+  padding:0px 20px; 
+  margin-top: -100px;
+  background:rgb(173,235,255);
+  left:0;
+  z-index:2000; 
+  width:100%;
+  background-image:url("../figs/top1.png");
+
+}
+
+#content {
+  margin-top: 100px;
+}
+
