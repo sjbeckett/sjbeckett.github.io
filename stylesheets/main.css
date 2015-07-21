@@ -9,6 +9,7 @@ body {
 div.low {
 	
 	font-family: OpenSymbol,Helvetica, Arial, sans-serif;
+	font-size:85%;
 }
 
 
@@ -42,5 +43,17 @@ a.pop:hover {
 
 #content {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
+
+#footer {
+  position: fixed;
+  padding:0px 20px; 
+  background:rgb(173,235,255);
+  left:0;
+  bottom:0px;
+  z-index:2000; 
+  width:100%;
+  background-image:url("../figs/top1.png");
+}
