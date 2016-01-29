@@ -1,5 +1,6 @@
 table, table tr, table td { padding:none;border:none;border-spacing:0;}
 a:visited { color:blue; }
+a:hover { color:red; }	
 
 body {
 	font-size:medium;
@@ -10,6 +11,20 @@ div.low {
 	
 	font-family: OpenSymbol,Helvetica, Arial, sans-serif;
 	font-size:85%;
+	
+}
+
+a.low:link {
+    text-decoration: none;
+}
+
+a.low:visited {
+    text-decoration: none;
+    color:blue;
+}
+
+a.low:hover {
+	color:red;
 }
 
 
